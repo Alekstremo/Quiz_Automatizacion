@@ -9,7 +9,7 @@ describe('Cat Shelter', () => {
     cy.contains('Stay').click();
     cy.get('button').contains('Add').click();
     cy.wait(500);
-    cy.get('button').last().click();
+    cy.get('button[class="new_home "]').last().click();
     cy.wait(500);
     cy.get('a[class="link_btn add"]').contains('Add').click();
     cy.get('input[name="name"]').type(data.cat2);
@@ -17,7 +17,7 @@ describe('Cat Shelter', () => {
     cy.contains('Wants').click();
     cy.get('button').contains('Add').click();
     cy.wait(500);
-    cy.get('button').last().click();
+    cy.get('button[class="new_home "]').last().click();
     });
   });
 });
