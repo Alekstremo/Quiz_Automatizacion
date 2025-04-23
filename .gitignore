@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode config (opcional, si no quieres compartir tu configuración)
+.vscode/
+
+# Coverage reports (si usas cobertura de pruebas)
+coverage/
+
+# Build artifacts
+dist/
+build/
